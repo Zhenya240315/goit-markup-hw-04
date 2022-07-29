@@ -52,6 +52,7 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
+  
 }
 ul {
   list-style: none;
@@ -100,6 +101,7 @@ ul {
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  align-items: center;
 }
 .header > .container {
   display: flex;
@@ -130,6 +132,12 @@ ul {
 .header-tel:focus {
   color: var(--accent-color);
 }
+.header-icon-nav{
+  margin-right: 10px;
+  fill: currentColor;
+  
+}
+
 
 /*-----------MAIN-----------*/
 
@@ -257,6 +265,8 @@ background-image: url(../images/Group\ \(1\).svg);
 }
 .team-item {
   padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-name {
   font-weight: 500;
@@ -299,6 +309,42 @@ color: #FFFFFF;
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+/*----------clients----------*/
+.clients{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-list{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.clients-titel{
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: var(--title-color);
+}
+.clients-icon-link{
+  width: 170px;
+  height: 92px;
+  display: flex;
+  padding: 16px 32px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  color:#AFB1B8;
+}
+.clients-icon-log{
+fill: currentColor;
+}
+.clients-icon-link:hover,
+.clients-icon-link:focus{
+  border: 1px solid #2196F3;
+  color: #2196F3;
 }
 
 /*-----------footer-----------*/
@@ -349,6 +395,52 @@ color: #FFFFFF;
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
 }
+/* ---------------- */
+.footer{
+display:flex;
+}
+.footer-links{
+  margin: 12px 0px 0px 70px;
+}
+
+.footer-text{
+font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  
+}
+.footer-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+}
+
+.footer-soc-icon {
+  fill: currentColor;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: #2196F3;
+  
+}
+.footer-text-soc{
+  display: flex;
+}
+
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 
 /* -------------------------PORTFOLIO------------------------ */
 
@@ -371,6 +463,7 @@ color: #FFFFFF;
   cursor: pointer;
   background-color: var(--accent-color);
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filter-button {
   font-family: 'Roboto';
