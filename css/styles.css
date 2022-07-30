@@ -7,12 +7,14 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
 :root {
   --title-color: #212121;
   --text-color: #757575;
   --accent-color: #2196f3;
   --main-backgroud: #e5e5e5;
 }
+
 p,
 h1,
 h2,
@@ -22,11 +24,13 @@ h5,
 h6 {
   margin: 0;
 }
+
 ul,
 ol {
   margin: 0;
   padding-left: 0;
 }
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -35,9 +39,11 @@ ol {
   margin-left: auto;
   margin-right: auto;
 }
+
 button {
   border: 1px solid transparent;
 }
+
 img {
   display: block;
 }
@@ -53,6 +59,7 @@ body {
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
+
 ul {
   list-style: none;
 }
@@ -75,6 +82,7 @@ ul {
 .studio {
   color: #000000;
 }
+
 .header-list .header-link.current {
   color: #2196f3;
 }
@@ -102,19 +110,24 @@ ul {
   color: var(--text-color);
   align-items: center;
 }
+
 .header > .container {
   display: flex;
   align-items: center;
 }
+
 .header-list {
   display: flex;
 }
+
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
+
 .header-logo {
   margin-right: 93px;
 }
+
 .header-contacts {
   margin-left: auto;
   display: flex;
@@ -131,6 +144,7 @@ ul {
 .header-tel:focus {
   color: var(--accent-color);
 }
+
 .header-icon-nav {
   margin-right: 10px;
   fill: currentColor;
@@ -154,6 +168,7 @@ ul {
   max-width: 1600px;
   margin: 0 auto;
 }
+
 .title-item {
   font-family: "Roboto";
   font-weight: 900;
@@ -178,6 +193,7 @@ ul {
 
   margin: 30px auto 0;
 }
+
 .description {
   padding-top: 94px;
 }
@@ -186,6 +202,7 @@ ul {
   display: flex;
   gap: 30px;
 }
+
 .description-item {
   width: 270px;
 }
@@ -204,10 +221,12 @@ ul {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+
 .work {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .work-title {
   font-size: 36px;
   line-height: 1.17;
@@ -216,10 +235,12 @@ ul {
   margin-bottom: 50px;
   text-align: center;
 }
+
 .work-image {
   display: flex;
   gap: 30px;
 }
+
 .description-item::before {
   content: "";
   display: block;
@@ -231,17 +252,21 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .icon-antenna::before {
-  background-image: url(../images/Group\\(1\).svg);
+  background-image: url(../images/antenna.svg);
 }
+
 .icon-clock::before {
-  background-image: url(../images/clock\1\\(1\).svg);
+  background-image: url(../images/clock.svg);
 }
+
 .icon-diagram::before {
-  background-image: url(../images/diagram\1\\(1\).svg);
+  background-image: url(../images/diagram.svg);
 }
+
 .icon-astronaut::before {
-  background-image: url(../images/astronaut\1\\(1\).svg);
+  background-image: url(../images/astronaut.svg);
 }
 
 /*-----------Team-----------*/
@@ -260,10 +285,12 @@ ul {
   margin-bottom: 50px;
   text-align: center;
 }
+
 .team-list {
   display: flex;
   gap: 30px;
 }
+
 .team-item {
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -271,6 +298,7 @@ ul {
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -290,6 +318,7 @@ ul {
   margin-bottom: 16px;
   text-align: center;
 }
+
 .team-soc-link {
   width: 44px;
   height: 44px;
@@ -299,9 +328,11 @@ ul {
   justify-content: center;
   color: #afb1b8;
 }
+
 .team-soc-icon {
   fill: currentColor;
 }
+
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: #2196f3;
@@ -319,11 +350,13 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .clients-list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
+
 .clients-titel {
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -343,9 +376,11 @@ ul {
   border-radius: 4px;
   color: #afb1b8;
 }
+
 .clients-icon-log {
   fill: currentColor;
 }
+
 .clients-icon-link:hover,
 .clients-icon-link:focus {
   border: 1px solid #2196f3;
@@ -362,10 +397,12 @@ ul {
 .ftr-studio {
   color: #ffffff;
 }
+
 .footer-mail:hover,
 .footer-mail:focus {
   color: var(--accent-color);
 }
+
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-color);
@@ -387,14 +424,16 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  
 }
-.mail{
+
+.mail {
   margin-top: 9px;
 }
-.tel{
+
+.tel {
   margin-top: 9px;
 }
+
 .footer-tel {
   font-style: normal;
   font-size: 14px;
@@ -402,12 +441,13 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  
 }
+
 /* ---------------- */
 .footer {
   display: flex;
 }
+
 .footer-links {
   margin: 12px 0px 0px 70px;
 }
@@ -420,6 +460,7 @@ ul {
   margin-bottom: 20px;
   color: #ffffff;
 }
+
 .footer-soc-link {
   width: 44px;
   height: 44px;
@@ -439,6 +480,7 @@ ul {
 .footer-soc-link:focus {
   background-color: #2196f3;
 }
+
 .footer-text-soc {
   display: flex;
 }
@@ -473,6 +515,7 @@ ul {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .filter-button {
   font-family: "Roboto";
   padding: 6px 22px;
@@ -495,12 +538,14 @@ ul {
   gap: 30px;
   flex-wrap: wrap;
 }
+
 .block-name {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--title-color);
 }
+
 .block-group {
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -514,6 +559,7 @@ ul {
   border: 1px solid #eeeeee;
   background: #ffffff;
 }
+
 .block-list:hover,
 .block-list:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
